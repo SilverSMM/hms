@@ -45,7 +45,7 @@ The official launch of our TG mini-app is now live. Earn $SUNF for FREE and secu
       reply_markup: {
           inline_keyboard: [
             [{ text: "⚡️Play now!⚡️", web_app: { url: urlSent } }],
-            [{ text: "Dm to Developer", url: community_link }]
+            [{ text: "Community Link", url: community_link }]
             // [{ text: "Bot App Demo 2 🧩", web_app: { url: urlSentTwo } }],
           
           ],
