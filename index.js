@@ -39,9 +39,9 @@ bot.start((ctx) => {
   // const urlSentTwo = `${web_linkTwo}?ref=${startPayload}`;
   const user = ctx.message.from;
   const userName = user.username ? `@${user.username}` : user.first_name;
-  ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome to Sun Flower !*
+  ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome to $HMS Tap Game  !*
   
-The official launch of our TG mini-app is now live. Earn $SUNF for FREE and secure early user benefits + airdrops.`, {
+The official launch of our TG mini-app is now live. Earn $HMS for FREE and secure early user benefits + airdrops.`, {
       reply_markup: {
           inline_keyboard: [
             [{ text: "⚡️Play now!⚡️", web_app: { url: urlSent } }],
