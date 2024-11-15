@@ -44,8 +44,8 @@ bot.start((ctx) => {
 The official launch of our TG mini-app is now live. Earn $HMS for FREE and secure early user benefits + airdrops.`, {
       reply_markup: {
           inline_keyboard: [
-            [{ text: "⚡️Play now!⚡️", web_app: { url: urlSent } }],
-            [{ text: "Community Link", url: community_link }]
+            [{ text: "⚡️Launch HMS!⚡️", web_app: { url: urlSent } }],
+            [{ text: "Join Community", url: community_link }]
             // [{ text: "Bot App Demo 2 🧩", web_app: { url: urlSentTwo } }],
           
           ],
