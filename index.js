@@ -48,7 +48,7 @@ Got friends? Bring 'em in! The more, the merrier! 🕺
 Earn HMS for FREE and secure early user benefits + airdrops..`, {
       reply_markup: {
           inline_keyboard: [
-            [{ text: "⚡️Launch HMS!⚡️", web_app: { url: urlSent } }],
+            [{ text: "Launch HMS", web_app: { url: urlSent } }],
             [{ text: "Join Community", url: community_link }]
             // [{ text: "Bot App Demo 2 🧩", web_app: { url: urlSentTwo } }],
           
