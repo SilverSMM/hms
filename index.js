@@ -39,9 +39,13 @@ bot.start((ctx) => {
   // const urlSentTwo = `${web_linkTwo}?ref=${startPayload}`;
   const user = ctx.message.from;
   const userName = user.username ? `@${user.username}` : user.first_name;
-  ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome to $HMS Tap Game  !*
+  ctx.replyWithMarkdown(`*Hey, ${userName}! It's HMS! 🌟 Your go-to app for your Tokens🤑  !*
   
-The official launch of our TG mini-app is now live. Earn $HMS for FREE and secure early user benefits + airdrops.`, {
+Now we're rolling out our Telegram mini app! Start farming points now, and who knows what cool stuff you'll snag with them soon! 🚀
+
+Got friends? Bring 'em in! The more, the merrier! 🕺
+
+Earn HMS for FREE and secure early user benefits + airdrops..`, {
       reply_markup: {
           inline_keyboard: [
             [{ text: "⚡️Launch HMS!⚡️", web_app: { url: urlSent } }],
