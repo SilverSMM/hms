@@ -30,8 +30,8 @@ app.listen(process.env.PORT || 5000, async () => {
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
-const web_link = "https://hmstapgame.site";
-const community_link = "https://t.me/HMSTapGame";
+const web_link = "https://hmstap.netlify.app";
+const community_link = "https://t.me/SilverAreaaaa";
 
 bot.start((ctx) => {
   const startPayload = ctx.startPayload;
